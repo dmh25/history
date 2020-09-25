@@ -7,13 +7,21 @@ html {
 {
     margin-left: 100px;
 }
+#indent100_a
+{
+    margin-left: 100px;
+}
+#indent200
+{
+    margin-left: 200px;
+}
+#indent300 {
+    margin-left: 300px;
+}
 footer {
     margin-left: 400px;
 }
-#indent {
-    margin-left: 500px;
-}
-#test {
+#width {
     --number: 10000;
     --guess01: calc((var(--number) + ( var(--number) / var(--number))) / 2);
     --guess02: calc((var(--guess01) + ( var(--number) / var(--guess01))) / 2);
